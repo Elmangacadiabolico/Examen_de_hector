@@ -1,0 +1,121 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.navbar-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  margin: 0 15px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+
+.juego-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.juego-container h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.numero-oculto {
+  font-size: 5rem;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #333;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: #eaeaea;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input {
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 2px solid #333;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Estilos para mensajes y historial */
+p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 5px 0;
+  font-size: 1.1rem;
+  color: #555;
+}
